@@ -12,7 +12,7 @@
     <AssemblyName>Launcher</AssemblyName>
     <Company>TkoolerLufar</Company>
     <RootNamespace>UnityScreenSaverLauncher</RootNamespace>
-    <Product>ScreenSaverByUnity</Product>
+    <Product>MyShaderArtScreenSaver</Product>
     <AssemblyVersion>0.1.0</AssemblyVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
