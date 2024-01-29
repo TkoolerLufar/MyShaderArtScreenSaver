@@ -3,6 +3,7 @@ Shader "Unlit/MyArtShader"
 {
     Properties
     {
+        [HideInInspector] _MainTex ("(Unused)", 2D) = "black" {}
         _aspectRatio ("Aspect Ratio", float) = 1.
         _lightPower ("Light Power", float) = .002
         _lowColor ("Low-intense Color", Color) = (0., 0., 1., 1.)
