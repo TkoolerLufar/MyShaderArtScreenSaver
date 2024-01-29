@@ -6,7 +6,7 @@ Shader "Unlit/MyArtShader"
         [HideInInspector] _MainTex ("(Unused)", 2D) = "black" {}
         _aspectRatio ("Aspect Ratio", float) = 1.
         _lightPower ("Light Power", float) = .002
-        _lowColor ("Low-intense Color", Color) = (0., 0., 1., 1.)
+        [MainColor] _lowColor ("Low-intense Color", Color) = (0., 0., 1., 1.)
         _midColor ("Medium-intense Color", Color) = (0., 1., 0., 1.)
         _hiColor ("High-intense Color", Color) = (1., 0., 0., 1.)
     }
