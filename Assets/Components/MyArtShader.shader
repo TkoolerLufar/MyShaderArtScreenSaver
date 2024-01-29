@@ -73,7 +73,7 @@ Shader "Unlit/MyArtShader"
                 }
                 // Use square value instead plain to optimize for performance
                 float radiusSq = (sq(p.x) + sq(p.y));
-                float angle = atan2(p.y, p.x);
+                float angle = atan(p.y / p.x);
 
                 // Decide the intensity
                 float f = (abs(sin( 3. * angle + radians((_Time.y - 1.) * 6.))) + 1.) * 32.5 / 100.;
